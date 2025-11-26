@@ -29,14 +29,14 @@
             bindings = <&kp RALT>;
             key-positions = <34 35>;
             layers = <0>;
-            timeout-ms = <120>;
+            timeout-ms = <90>;
         };
 
         b_key {
             bindings = <&kp B>;
             key-positions = <35 36>;
             layers = <0>;
-            timeout-ms = <120>;
+            timeout-ms = <90>;
         };
     };
 

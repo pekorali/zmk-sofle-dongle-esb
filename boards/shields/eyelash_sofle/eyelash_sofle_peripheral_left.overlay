@@ -29,3 +29,7 @@
 &left_encoder {
     status = "okay";
 };
+
+&timer1 {
+    status = "okay";
+};

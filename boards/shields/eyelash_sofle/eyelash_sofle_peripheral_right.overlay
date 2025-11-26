@@ -30,3 +30,6 @@
     col-offset = <7>;
 };
 
+&timer1 {
+    status = "okay";
+};

@@ -61,7 +61,3 @@
 &timer1 {
     status = "okay";
 };
-
-&timer2 {
-    status = "okay";
-};
