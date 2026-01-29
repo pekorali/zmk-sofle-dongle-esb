@@ -127,12 +127,12 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
         device = <&trackpoint_split>;
         /* Swap axes + 2x scaling + auto mouse layer */
         /* input-processors =  <&zip_xy_swap>, <&zip_xy_scaler 2 1>,  <&zip_temp_layer 4 1000>; */
-		input-processors =  <&zip_xy_swap_mapper>,  <&zip_temp_layer 4 1000>;
+		input-processors = <&zip_xy_swap>,  <&zip_temp_layer 4 1000>;
         /* Layer 6: Scroll mode - swap + reduced sensitivity */
         scroll {
             layers = <5>;
 			/* input-processors = <&zip_xy_swap>, <&zip_xy_scaler 1 4>,  <&zip_xy_to_scroll>; */
-			input-processors = <&zip_xy_swap_mapper>,  <&zip_xy_to_scroll>;
+			input-processors = <&zip_xy_swap>,  <&zip_xy_to_scroll>;
         };
 
 };
@@ -179,6 +179,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
 &timer1 {
     status = "okay";
 };
+
 
 
 
