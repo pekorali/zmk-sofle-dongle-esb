@@ -162,9 +162,9 @@
         /* Reset pin on NFC1 (P0.09) - required for reliable init */
         sampling-rate = <100>;
         /* Max TP sensitivity - all values at maximum */
-        tp-sensitivity = <110>;
+        tp-sensitivity = <100>;
         tp-neg-inertia = <5>;
-        tp-val6-upper-speed = <120>;
+        tp-val6-upper-speed = <110>;
         tp-xy-swap;
 	    tp-x-invert;
 	    tp-y-invert;
