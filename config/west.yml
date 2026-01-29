@@ -14,6 +14,8 @@ manifest:
       url-base: https://github.com/badjeff
     - name: nrfconnect
       url-base: https://github.com/nrfconnect
+    - name: mwlaboratories
+      url-base: https://github.com/mwlaboratories      
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
@@ -46,8 +48,9 @@ manifest:
       repo-path: sdk-nrfxlib
       path: nrfxlib
     - name: kb_zmk_ps2_mouse_trackpoint_driver
-      remote: badjeff
+      remote: mwlaboratories
       revision: main
   self:
 
     path: config
+
