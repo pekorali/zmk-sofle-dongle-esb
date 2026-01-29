@@ -1,7 +1,7 @@
 if SHIELD_EYELASH_SOFLE_CENTRAL_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "E_Solfe-Dongle"
+    default "Sofle CYN"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -57,3 +57,4 @@ config LED_PWM
 endif # ZMK_BACKLIGHT
 
 endif
+
