@@ -138,7 +138,8 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
 *};
 */
 
-/*&spi3 {
+/*
+*&spi3 {
 *    compatible = "nordic,nrf-spim";
 *    status = "okay";
 *
@@ -149,12 +150,12 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
 *    led_strip: ws2812@0 { 
 *        compatible = "worldsemi,ws2812-spi"; 
 *
-*         /*SPI*/ 
-*        reg = <0>;  ignored, but necessary for SPI bindings 
+*         SPI 
+*        reg = <0>;     ignored, but necessary for SPI bindings 
 *        spi-max-frequency = <4000000>; 
 *
-*         /*WS2812*/ 
-*        chain-length = <7>;  6 keys have underglow at the moment 
+*         WS2812
+*        chain-length = <7>;     6 keys have underglow at the moment 
 *        spi-one-frame = <0x70>;
 *        spi-zero-frame = <0x40>;
 *
@@ -187,6 +188,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
         addr-prefix = <0xE7 0xC2 0xC3 0xC4 0xC5 0xC6 0xC7 0xC8>;
     };
 };
+
 
 
 
