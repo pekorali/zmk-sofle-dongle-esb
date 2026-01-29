@@ -150,11 +150,11 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
         spi-max-frequency = <4000000>;
 
         /* WS2812 */
-        chain-length = <7>; /* 6 keys have underglow at the moment */
-        spi-one-frame = <0x70>;
-        spi-zero-frame = <0x40>;
+        /*chain-length = <7>;  6 keys have underglow at the moment */
+        /*spi-one-frame = <0x70>;*/
+        /*spi-zero-frame = <0x40>;*/
 
-        color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
+        /*color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;*/
     };
 };
 
@@ -180,6 +180,7 @@ zephyr_udc0: &usbd {
         addr-prefix = <0xE7 0xC2 0xC3 0xC4 0xC5 0xC6 0xC7 0xC8>;
     };
 };
+
 
 
 
