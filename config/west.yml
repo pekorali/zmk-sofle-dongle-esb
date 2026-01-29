@@ -45,5 +45,9 @@ manifest:
       revision: v2.6.4
       repo-path: sdk-nrfxlib
       path: nrfxlib
+    - name: kb_zmk_ps2_mouse_trackpoint_driver
+      remote: badjeff
+      revision: main
   self:
+
     path: config
