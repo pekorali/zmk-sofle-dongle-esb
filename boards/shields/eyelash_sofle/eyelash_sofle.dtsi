@@ -6,7 +6,7 @@
 */
 #include <dt-bindings/led/led.h>
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "eyelash_sofle-layouts.dtsi"
+#include <layouts/josefadamcik/sofle.dtsi>
 
 / {
 
@@ -162,5 +162,6 @@ zephyr_udc0: &usbd {
         addr-prefix = <0xE7 0xC2 0xC3 0xC4 0xC5 0xC6 0xC7 0xC8>;
     };
 };
+
 
 
