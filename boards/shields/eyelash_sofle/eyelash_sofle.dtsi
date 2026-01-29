@@ -11,11 +11,11 @@
 / {
 
     chosen {
-        zmk,kscan = &kscan0;
+        zmk,kscan = &mock_kscan;
         zmk,battery = &vbatt;
         // zmk,underglow = &led_strip;
         // zmk,backlight = &backlight;
-        zmk,physical-layout = &eyelash_sofle_layout;
+        zmk,physical-layout = &josefadamcik_sofle_layout;
 
     };
 
@@ -162,6 +162,7 @@ zephyr_udc0: &usbd {
         addr-prefix = <0xE7 0xC2 0xC3 0xC4 0xC5 0xC6 0xC7 0xC8>;
     };
 };
+
 
 
 
