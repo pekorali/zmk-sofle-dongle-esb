@@ -8,8 +8,6 @@ manifest:
       url-base: https://github.com/tokyo2006
     - name: englmaxi
       url-base: https://github.com/englmaxi
-    - name: kumbung01
-      url-base: https://github.com/kumbung01
     - name: badjeff
       url-base: https://github.com/badjeff
     - name: nrfconnect
@@ -35,8 +33,9 @@ manifest:
       remote: kumbung01
       revision: main
     - name: zmk-feature-split-esb
-      # remote: badjeff
-      remote: kumbung01
+      remote: badjeff
+      # remote: kumbung01
+      # remote: pekorali
       revision: tdma
     - name: sdk-nrf
       remote: nrfconnect
@@ -53,4 +52,5 @@ manifest:
   self:
 
     path: config
+
 
