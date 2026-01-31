@@ -18,9 +18,9 @@ manifest:
     - name: mario-peripheral-animation
       remote: gpeye
       revision: main 
-    - name: zmk-behivior-custom-caps-word
-      remote: kumbung01
-      revision: main
+    #- name: zmk-behivior-custom-caps-word
+    #  remote: kumbung01
+    #  revision: main
     - name: zmk
       remote: zmkfirmware
       revision: v0.3
@@ -52,5 +52,6 @@ manifest:
   self:
 
     path: config
+
 
 
