@@ -39,8 +39,8 @@ manifest:
       # remote: kumbung01
       # remote: pekorali
       # revision: tdma
-      # revision: zmk-0.3
-      revision: main
+      revision: zmk-0.3
+      # revision: main
     - name: sdk-nrf
       remote: nrfconnect
       revision: v2.6.4 # zephyr v3.5.99
@@ -56,6 +56,7 @@ manifest:
   self:
 
     path: config
+
 
 
 
