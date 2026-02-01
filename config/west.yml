@@ -39,7 +39,7 @@ manifest:
       remote: kumbung01
       # remote: pekorali
       # revision: tdma
-      revision: direct-copy-stable
+      revision: stable
       #revision: zmk-0.3
       # revision: main
     - name: sdk-nrf
@@ -57,6 +57,7 @@ manifest:
   self:
 
     path: config
+
 
 
 
