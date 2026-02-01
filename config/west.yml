@@ -17,9 +17,9 @@ manifest:
     - name: mwlaboratories
       url-base: https://github.com/mwlaboratories      
   projects:
-    - name: mario-peripheral-animation
-      remote: gpeye
-      revision: main 
+    #- name: mario-peripheral-animation
+    #  remote: gpeye
+    #  revision: main 
     - name: zmk-behivior-custom-caps-word
       remote: kumbung01
       revision: main
@@ -37,7 +37,8 @@ manifest:
     - name: zmk-feature-split-esb
       # remote: badjeff
       remote: kumbung01
-      revision: tdma
+      # revision: tdma
+      revision: direct-copy-stable
     - name: sdk-nrf
       remote: nrfconnect
       revision: v2.6.4 # zephyr v3.5.99
@@ -53,3 +54,4 @@ manifest:
   self:
 
     path: config
+
