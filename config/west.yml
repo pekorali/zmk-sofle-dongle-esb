@@ -35,11 +35,12 @@ manifest:
       remote: kumbung01
       revision: main
     - name: zmk-feature-split-esb
-      remote: badjeff
-      # remote: kumbung01
+      #remote: badjeff
+      remote: kumbung01
       # remote: pekorali
       # revision: tdma
-      revision: zmk-0.3
+      revision: 0112
+      #revision: zmk-0.3
       # revision: main
     - name: sdk-nrf
       remote: nrfconnect
@@ -56,6 +57,7 @@ manifest:
   self:
 
     path: config
+
 
 
 
