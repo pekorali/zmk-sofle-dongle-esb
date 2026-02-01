@@ -8,18 +8,18 @@ manifest:
       url-base: https://github.com/tokyo2006
     - name: englmaxi
       url-base: https://github.com/englmaxi
-    - name: badjeff
-      url-base: https://github.com/badjeff
     - name: kumbung01
       url-base: https://github.com/kumbung01
+    - name: badjeff
+      url-base: https://github.com/badjeff
     - name: nrfconnect
       url-base: https://github.com/nrfconnect
     - name: mwlaboratories
       url-base: https://github.com/mwlaboratories      
   projects:
-    - name: mario-peripheral-animation
-      remote: gpeye
-      revision: main 
+    #- name: mario-peripheral-animation
+    #  remote: gpeye
+    #  revision: main 
     #- name: zmk-behivior-custom-caps-word
     #  remote: kumbung01
     #  revision: main
@@ -35,13 +35,9 @@ manifest:
       remote: kumbung01
       revision: main
     - name: zmk-feature-split-esb
-      #remote: badjeff
+      # remote: badjeff
       remote: kumbung01
-      # remote: pekorali
-      # revision: tdma
-      revision: stable
-      #revision: zmk-0.3
-      # revision: main
+      revision: tdma
     - name: sdk-nrf
       remote: nrfconnect
       revision: v2.6.4 # zephyr v3.5.99
@@ -57,11 +53,3 @@ manifest:
   self:
 
     path: config
-
-
-
-
-
-
-
-
